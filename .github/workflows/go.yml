@@ -19,7 +19,7 @@ jobs:
         go-version: 1.16
      
     - name: Install golint
-      run: go get -u github.com/golang/lint/golint
+      run: go get -u golang.org/x/lint/golint
       
     - name: Install mage      
       run: go get -u github.com/magefile/mage
